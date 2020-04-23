@@ -24,18 +24,18 @@
           (?i)Would you like a YAML                                                       : "no"
 
 
-- hosts      : all
-  remote_user: root
-  tasks      :
-    - name   : distribute switch image
-      copy   :
-        src  : ~/switch.tar.gz
-        dest : ~/switch.tar.gz
+#- hosts      : all
+#  remote_user: root
+#  tasks      :
+#    - name   : distribute switch image
+#      copy   :
+#        src  : ~/switch.tar.gz
+#        dest : ~/switch.tar.gz
 
-    - name   : distribute ubuntu image
-      copy   :
-        src  : ~/ubuntu.tar.gz
-        dest : ~/ubuntu.tar.gz
+#    - name   : distribute ubuntu image
+#      copy   :
+#        src  : ~/ubuntu.tar.gz
+#        dest : ~/ubuntu.tar.gz
 
 #    - name   : distribute master image
 #      copy   :
