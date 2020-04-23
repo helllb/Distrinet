@@ -1,20 +1,20 @@
 ---
 #
-- hosts      : master
-  remote_user: root
-  tasks      :
+#- hosts      : master
+#  remote_user: root
+#  tasks      :
 
-    - name   : Download switch
-      get_url:
-        url : http://www-sop.inria.fr/members/Damien.Saucez/images/switch.tar.gz
-        dest: ~/switch.tar.gz
-        mode: 0666
+#    - name   : Download switch
+#      get_url:
+#        url : http://www-sop.inria.fr/members/Damien.Saucez/images/switch.tar.gz
+#        dest: ~/switch.tar.gz
+#        mode: 0666
 
-    - name   : Download ubuntu18:04
-      get_url:
-        url : http://www-sop.inria.fr/members/Damien.Saucez/images/ubuntu.tar.gz
-        dest: ~/ubuntu.tar.gz
-        mode: 0666
+#    - name   : Download ubuntu18:04
+#      get_url:
+#        url : http://www-sop.inria.fr/members/Damien.Saucez/images/ubuntu.tar.gz
+#        dest: ~/ubuntu.tar.gz
+#        mode: 0666
 
 
 
