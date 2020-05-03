@@ -469,11 +469,11 @@ class CLI( Cmd ):
                     error( "select.error: %d, %s" % (errno_, errmsg) )
                     node.sendInt()
 
-    def precmd( self, line ):
-        "allow for comments in the cli"
-        if '#' in line:
-            line = line.split( '#' )[ 0 ]
-        return line
+    #def precmd( self, line ):
+    #    "allow for comments in the cli"
+    #    if '#' in line:
+    #        line = line.split( '#' )[ 0 ]
+    #    return line
 
 
 # Helper functions
