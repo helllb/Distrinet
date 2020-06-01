@@ -66,6 +66,10 @@
       apt :
         name: lxd-client
 
+    - name: install sysstat
+      apt :
+        name: sysstat
+
     - name: install ryu
       apt:
         name: python3-ryu
